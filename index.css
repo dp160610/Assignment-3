@@ -1,0 +1,127 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+}
+#logo-section{
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+}
+#logo-section img{
+    height: 200px;
+    width: 200px;
+}
+nav a{
+    position: relative;
+    top: 45%;
+    padding: 24px;
+    text-decoration: none;
+    color: #c9c9c9;
+    cursor: pointer;
+}
+.active{
+    color: black;
+}
+#sign button{
+    position: relative;
+    top: 38%;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 16px 48px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+main{
+    padding: 16px;
+}
+#section-1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+#part-1{
+    margin-left: 17%;
+    margin-top: 5%;
+    width: 25%;
+}
+#new-features{
+    text-transform: uppercase;
+    padding: 12px 24px;
+    color: blue;
+    background-color: #ffc7e3;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    outline: none;
+    cursor: pointer;
+}
+#part-1 h1{
+    font-size: 50px;
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+#part-1 p{
+    color: #c9c9c9;
+    margin-bottom: 30px;
+}
+#get-started{
+    background-color: #6161ff;
+    color: #fff;
+    padding: 24px 48px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+#part-2{
+    width: 55%;
+}
+#part-2 img{
+    height: 700px;
+    width: 700px;
+}
+#navigation-part{
+    display: flex;
+    margin-top: 80px;
+}
+.icons{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #6161ff;
+    margin-left: 20px;
+    cursor: pointer;
+}
+i{
+    margin-left: 13px;
+    margin-top: 13px;
+}
+#background-change{
+    background-color: bisque;
+}
+#desc{
+    display: flex;
+    margin-left: 80px;
+    margin-top: -40px;
+}
+#desc h5{
+    color: #6161ff;
+    padding: 16px;
+}
+#desc p{
+    color: black;
+    font-size: 12px;
+    margin-top: 39px;
+    font-weight: 600;
+}
