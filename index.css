@@ -1,12 +1,19 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+#main-wrapper{
+    box-shadow: 5px 15px 80px 2px #e2e7ea;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70%;
+    border-radius: 40px;
+}
 header{
     display: flex;
     justify-content: space-evenly;
 }
 #logo-section{
-    overflow: hidden;
     height: 200px;
     width: 200px;
 }
@@ -39,11 +46,11 @@ nav a{
     cursor: pointer;
 }
 main{
-    padding: 16px;
+    padding: 0px 16px;
 }
 #section-1{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 100%;
 }
 #part-1{
@@ -66,7 +73,9 @@ main{
 #part-1 h1{
     font-size: 50px;
     line-height: 1.1;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-weight: 600;
 }
 #part-1 p{
     color: #c9c9c9;
@@ -85,35 +94,39 @@ main{
     cursor: pointer;
 }
 #part-2{
-    width: 55%;
+   width: 55%;
 }
 #part-2 img{
-    height: 700px;
-    width: 700px;
+    height: 550px;
+    width: 550px;
 }
 #navigation-part{
     display: flex;
-    margin-top: 80px;
+    margin-top: 50px;
+    margin-bottom: 0;
 }
 .icons{
     width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: #6161ff;
-    margin-left: 20px;
     cursor: pointer;
+    margin-right: 16px;
 }
 i{
-    margin-left: 13px;
     margin-top: 13px;
+    margin-left: 6px;
+    border-radius: 50%;
 }
 #background-change{
     background-color: bisque;
 }
 #desc{
     display: flex;
+    justify-content: flex-start;
     margin-left: 80px;
     margin-top: -40px;
+    width: auto;
 }
 #desc h5{
     color: #6161ff;
@@ -124,4 +137,5 @@ i{
     font-size: 12px;
     margin-top: 39px;
     font-weight: 600;
+    width: 100px;
 }
